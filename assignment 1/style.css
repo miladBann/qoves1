@@ -1,0 +1,268 @@
+/*defining the fonts */
+
+@font-face {
+    font-family: 'Denton';
+    src: url('./font/Denton Test Light 300.otf') format('otf'),
+         url('./font/Denton Test Light 300.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Denton';
+    height: 100%;
+}
+
+
+.arrow {
+    color: gray;
+}
+
+
+/*##################################
+####################################*/
+/*background styles*/
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.row1 {
+display: grid;
+height: 30vh;
+grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.row2 {
+display: grid;
+height: 45vh;
+grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.row3 {
+display: grid;
+height: 25vh;
+grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.area {
+    border: 1px solid rgb(237, 229, 229); 
+    display: flex;
+    justify-content: center;
+}
+  
+.special {
+    background-color: rgb(237, 229, 229);
+    width: 2px;
+    height: 100%;
+}
+
+
+/*##################################
+####################################*/
+/*page content*/
+
+/*page middle*/
+.main_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_title h1 {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.skini_font {
+    font-weight: 420;
+}
+
+.main_title p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    font-family:sans-serif;
+}
+
+
+/*##################################
+####################################*/
+/* top menu */
+.menu {
+    width: auto;
+    height: 50px;
+    border: 2px solid rgb(237, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: absolute;
+    top: 0;
+    left: 33.2%;
+    margin-top: 24px;
+}
+
+.fix {
+    display: flex;
+}
+
+.element {
+    border: 1px solid rgb(237, 229, 229);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 18px;
+}
+
+.element p {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.divider {
+    height: 24px;
+    width: 1px;
+    background-color: rgb(237, 229, 229);
+    margin: 10px 15px;
+}
+
+.half {
+    width: 50%;
+}
+
+.twenty {
+    width: 20%;
+}
+
+.ten {
+    width: 10%;
+}
+
+.equals {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.lock {
+    width: 22px;
+    height: 22px;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*##################################
+####################################*/
+/*bottom left*/
+
+.bottom_left {
+    position: absolute;
+    bottom: 30px;
+    left: 28px;
+}
+
+.bottom_left h2 {
+    color: #7D828E;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+
+/*##################################
+####################################*/
+/*mid bottom left*/
+.bottom_mid_left {
+    position: relative;
+}
+
+.items {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    right: 120px;
+    bottom: 34px;
+    padding-left: 12px;
+}
+
+.item {
+    margin-bottom: 4px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*##################################
+####################################*/
+/*mid bottom right */
+
+.bottom_mid_right {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.locations {
+    color: #7D828E;
+    margin-bottom: 8px;
+}
+
+.items_right {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    width: 180px;
+}
+
+.items_right h3 {
+    font-size: 13px;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.item_right1 {
+    margin-bottom: 12px;
+}
+
+/*##################################
+####################################*/
+/*bottom right */
+
+.bottom_right {
+    position: relative;
+}
+
+.items2 {
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    bottom: 34px;
+    padding-left: 12px;
+}
